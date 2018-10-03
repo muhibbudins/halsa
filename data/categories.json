@@ -1,0 +1,59 @@
+{
+  "Pages": {
+    "name": "Pages",
+    "pages": [
+      {
+        "path": "/Users/katana/Sites/halsa/pages/about.md",
+        "route": "/about.html",
+        "targetPath": "/Users/katana/Sites/halsa/.halsa/",
+        "targetFile": "/Users/katana/Sites/halsa/.halsa/about.html",
+        "category": "Pages",
+        "date": "2018-10-03T22:59:46.000Z",
+        "layout": "page",
+        "title": "About",
+        "description": "This is About page",
+        "image": "/static/cooking.jpg"
+      },
+      {
+        "path": "/Users/katana/Sites/halsa/pages/index.md",
+        "route": "/index.html",
+        "targetPath": "/Users/katana/Sites/halsa/.halsa/",
+        "targetFile": "/Users/katana/Sites/halsa/.halsa/index.html",
+        "category": "Pages",
+        "date": "2018-10-03T22:59:46.000Z",
+        "layout": "landing",
+        "title": "Home page",
+        "description": "This is Home page"
+      }
+    ]
+  },
+  "Blog": {
+    "name": "Blog",
+    "pages": [
+      {
+        "path": "/Users/katana/Sites/halsa/pages/blog/example.md",
+        "route": "/blog/example.html",
+        "targetPath": "/Users/katana/Sites/halsa/.halsa/blog/",
+        "targetFile": "/Users/katana/Sites/halsa/.halsa/blog/example.html",
+        "category": "Blog",
+        "date": "2018-10-03T22:59:46.000Z",
+        "layout": "page",
+        "title": "Example",
+        "description": "This is Example",
+        "image": "/static/cooking.jpg"
+      },
+      {
+        "path": "/Users/katana/Sites/halsa/pages/blog/getting-started.md",
+        "route": "/blog/getting-started.html",
+        "targetPath": "/Users/katana/Sites/halsa/.halsa/blog/",
+        "targetFile": "/Users/katana/Sites/halsa/.halsa/blog/getting-started.html",
+        "category": "Blog",
+        "date": "2018-10-03T22:59:46.000Z",
+        "layout": "page",
+        "title": "Getting Started",
+        "description": "This is Getting Started",
+        "image": "/static/cooking.jpg"
+      }
+    ]
+  }
+}
