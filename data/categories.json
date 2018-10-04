@@ -3,24 +3,36 @@
     "name": "Pages",
     "pages": [
       {
-        "path": "/Users/katana/Sites/halsa/pages/about.md",
+        "path": "/Users/katana/Sites/halsa-cli/template/pages/about.md",
         "route": "/about.html",
-        "targetPath": "/Users/katana/Sites/halsa/.halsa/",
-        "targetFile": "/Users/katana/Sites/halsa/.halsa/about.html",
+        "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/",
+        "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/about.html",
         "category": "Pages",
-        "date": "2018-10-03T22:59:46.000Z",
+        "date": "2018-10-04T01:37:12.000Z",
         "layout": "page",
         "title": "About",
         "description": "This is About page",
         "image": "/static/cooking.jpg"
       },
       {
-        "path": "/Users/katana/Sites/halsa/pages/index.md",
-        "route": "/index.html",
-        "targetPath": "/Users/katana/Sites/halsa/.halsa/",
-        "targetFile": "/Users/katana/Sites/halsa/.halsa/index.html",
+        "path": "/Users/katana/Sites/halsa-cli/template/pages/blog/index.md",
+        "route": "/blog/index.html",
+        "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/blog/",
+        "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/blog/index.html",
         "category": "Pages",
-        "date": "2018-10-03T22:59:46.000Z",
+        "date": "2018-10-04T01:36:39.000Z",
+        "layout": "list",
+        "title": "Blog",
+        "description": "Blog list will be contains any pages except any index.md file",
+        "image": "/static/cooking.jpg"
+      },
+      {
+        "path": "/Users/katana/Sites/halsa-cli/template/pages/index.md",
+        "route": "/index.html",
+        "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/",
+        "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/index.html",
+        "category": "Pages",
+        "date": "2018-10-04T01:37:24.000Z",
         "layout": "landing",
         "title": "Home page",
         "description": "This is Home page"
@@ -31,27 +43,15 @@
     "name": "Blog",
     "pages": [
       {
-        "path": "/Users/katana/Sites/halsa/pages/blog/example.md",
-        "route": "/blog/example.html",
-        "targetPath": "/Users/katana/Sites/halsa/.halsa/blog/",
-        "targetFile": "/Users/katana/Sites/halsa/.halsa/blog/example.html",
-        "category": "Blog",
-        "date": "2018-10-03T22:59:46.000Z",
-        "layout": "page",
-        "title": "Example",
-        "description": "This is Example",
-        "image": "/static/cooking.jpg"
-      },
-      {
-        "path": "/Users/katana/Sites/halsa/pages/blog/getting-started.md",
+        "path": "/Users/katana/Sites/halsa-cli/template/pages/blog/getting-started.md",
         "route": "/blog/getting-started.html",
-        "targetPath": "/Users/katana/Sites/halsa/.halsa/blog/",
-        "targetFile": "/Users/katana/Sites/halsa/.halsa/blog/getting-started.html",
+        "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/blog/",
+        "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/blog/getting-started.html",
         "category": "Blog",
-        "date": "2018-10-03T22:59:46.000Z",
+        "date": "2018-10-04T01:37:00.000Z",
         "layout": "page",
         "title": "Getting Started",
-        "description": "This is Getting Started",
+        "description": "This is Getting Started Page",
         "image": "/static/cooking.jpg"
       }
     ]

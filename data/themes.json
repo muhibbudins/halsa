@@ -1,8 +1,8 @@
 [
   {
-    "path": "/Users/katana/Sites/halsa/themes/default.scss",
+    "path": "/Users/katana/Sites/halsa-cli/template/themes/default.scss",
     "route": "/themes/default.scss",
-    "targetPath": "/Users/katana/Sites/halsa/.halsa/themes/",
-    "targetFile": "/Users/katana/Sites/halsa/.halsa/themes/default.css"
+    "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/themes/",
+    "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/themes/default.css"
   }
 ]

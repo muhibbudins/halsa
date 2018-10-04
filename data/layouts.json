@@ -1,14 +1,20 @@
 [
   {
-    "path": "/Users/katana/Sites/halsa/layouts/landing.html",
+    "path": "/Users/katana/Sites/halsa-cli/template/layouts/landing.html",
     "route": "/layouts/landing.html",
-    "targetPath": "/Users/katana/Sites/halsa/.halsa/layouts/",
-    "targetFile": "/Users/katana/Sites/halsa/.halsa/layouts/landing.html"
+    "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/layouts/",
+    "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/layouts/landing.html"
   },
   {
-    "path": "/Users/katana/Sites/halsa/layouts/page.html",
+    "path": "/Users/katana/Sites/halsa-cli/template/layouts/list.html",
+    "route": "/layouts/list.html",
+    "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/layouts/",
+    "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/layouts/list.html"
+  },
+  {
+    "path": "/Users/katana/Sites/halsa-cli/template/layouts/page.html",
     "route": "/layouts/page.html",
-    "targetPath": "/Users/katana/Sites/halsa/.halsa/layouts/",
-    "targetFile": "/Users/katana/Sites/halsa/.halsa/layouts/page.html"
+    "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/layouts/",
+    "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/layouts/page.html"
   }
 ]
