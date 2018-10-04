@@ -6,6 +6,12 @@
     "targetFile": "/Users/katana/Sites/halsa/.halsa/layouts/landing.html"
   },
   {
+    "path": "/Users/katana/Sites/halsa/layouts/list.html",
+    "route": "/layouts/list.html",
+    "targetPath": "/Users/katana/Sites/halsa/.halsa/layouts/",
+    "targetFile": "/Users/katana/Sites/halsa/.halsa/layouts/list.html"
+  },
+  {
     "path": "/Users/katana/Sites/halsa/layouts/page.html",
     "route": "/layouts/page.html",
     "targetPath": "/Users/katana/Sites/halsa/.halsa/layouts/",

@@ -1,9 +1,13 @@
 # Layout Configuration
+name: Halsa
 theme: default
 menu:
-  - Home [/]
-  - Blog [/blog]
-  - About [/about]
+  - Home - [/]
+  - Blog - [/blog]
+  - About - [/about.html]
+ignored:
+  - index.html
+  - about.html
 
 # Server Configuration
 domain: http://muhibbudins.github.io/halsa

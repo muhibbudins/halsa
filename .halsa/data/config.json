@@ -1,0 +1,25 @@
+{
+  "name": "Halsa",
+  "theme": "default",
+  "menu": [
+    {
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "title": "Blog",
+      "url": "/blog"
+    },
+    {
+      "title": "About",
+      "url": "/about.html"
+    }
+  ],
+  "ignored": [
+    "index.html",
+    "about.html"
+  ],
+  "domain": "http://muhibbudins.github.io/halsa",
+  "port": 3001,
+  "repository": "git@github.com:muhibbudins/halsa.git"
+}
