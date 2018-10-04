@@ -24,7 +24,7 @@
     "about.html",
     "docs.html"
   ],
-  "domain": "https://muhibbudins.github.io",
+  "domain": "https://muhibbudins.github.io/halsa",
   "port": 3001,
   "branch": "master",
   "repository": "git@github.com:muhibbudins/halsa.git"
