@@ -1,5 +1,5 @@
 {
-  "name": "Halsa",
+  "name": "Halsa Project",
   "theme": "default",
   "menu": [
     {
@@ -7,19 +7,25 @@
       "url": "/"
     },
     {
-      "title": "Blog",
-      "url": "/blog"
+      "title": "Documentation",
+      "url": "/docs/getting-started.html"
     },
     {
       "title": "About",
       "url": "/about.html"
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/muhibbudins/halsa-cli"
     }
   ],
   "ignored": [
     "index.html",
-    "about.html"
+    "about.html",
+    "docs.html"
   ],
   "domain": "http://localhost:3001",
   "port": 3001,
+  "branch": "gh-pages",
   "repository": "git@github.com:muhibbudins/halsa.git"
 }

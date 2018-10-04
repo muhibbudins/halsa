@@ -1,0 +1,20 @@
+[
+  {
+    "file": {
+      "source": "/Users/katana/Sites/halsa-cli/template/themes/default.css",
+      "directory": "/Users/katana/Sites/halsa-cli/template/.halsa/themes/",
+      "target": "/Users/katana/Sites/halsa-cli/template/.halsa/themes/default.css"
+    },
+    "route": "/themes/default.css",
+    "content": {}
+  },
+  {
+    "file": {
+      "source": "/Users/katana/Sites/halsa-cli/template/themes/default.scss",
+      "directory": "/Users/katana/Sites/halsa-cli/template/.halsa/themes/",
+      "target": "/Users/katana/Sites/halsa-cli/template/.halsa/themes/default.css"
+    },
+    "route": "/themes/default.scss",
+    "content": {}
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "file": {
+      "source": "/Users/katana/Sites/halsa-cli/template/pages/docs/getting-started.md",
+      "directory": "/Users/katana/Sites/halsa-cli/template/.halsa/docs/",
+      "target": "/Users/katana/Sites/halsa-cli/template/.halsa/docs/getting-started.html"
+    },
+    "route": "/docs/getting-started.html",
+    "content": {
+      "layout": "page",
+      "title": "Getting Started",
+      "description": "Learn how to use halsa on your project, with simple configuration and fast development workflow. Just write your content and then build to website with Halsa",
+      "category": "Blog",
+      "image": "/static/image.jpg"
+    },
+    "category": "Pages",
+    "date": "2018-10-04T17:26:47.000Z"
+  }
+]

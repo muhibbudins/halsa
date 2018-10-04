@@ -1,0 +1,20 @@
+[
+  {
+    "file": {
+      "source": "/Users/katana/Sites/halsa-cli/template/layouts/landing.html",
+      "directory": "/Users/katana/Sites/halsa-cli/template/.halsa/layouts/",
+      "target": "/Users/katana/Sites/halsa-cli/template/.halsa/layouts/landing.html"
+    },
+    "route": "/layouts/landing.html",
+    "content": {}
+  },
+  {
+    "file": {
+      "source": "/Users/katana/Sites/halsa-cli/template/layouts/page.html",
+      "directory": "/Users/katana/Sites/halsa-cli/template/.halsa/layouts/",
+      "target": "/Users/katana/Sites/halsa-cli/template/.halsa/layouts/page.html"
+    },
+    "route": "/layouts/page.html",
+    "content": {}
+  }
+]
