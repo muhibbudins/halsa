@@ -19,7 +19,7 @@
     "index.html",
     "about.html"
   ],
-  "domain": "http://muhibbudins.github.io/halsa",
+  "domain": "http://localhost:3001",
   "port": 3001,
   "repository": "git@github.com:muhibbudins/halsa.git"
 }
