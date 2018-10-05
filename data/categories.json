@@ -3,56 +3,51 @@
     "name": "Pages",
     "pages": [
       {
-        "path": "/Users/katana/Sites/halsa-cli/template/pages/about.md",
+        "file": {
+          "source": "/Users/katana/Sites/halsa-cli/template/pages/about.md",
+          "directory": "/Users/katana/Sites/halsa-cli/template/.halsa/",
+          "target": "/Users/katana/Sites/halsa-cli/template/.halsa/about.html"
+        },
         "route": "/about.html",
-        "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/",
-        "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/about.html",
+        "content": {
+          "layout": "page",
+          "title": "About",
+          "description": "This is About page"
+        },
         "category": "Pages",
-        "date": "2018-10-04T01:37:12.000Z",
-        "layout": "page",
-        "title": "About",
-        "description": "This is About page",
-        "image": "/static/cooking.jpg"
+        "date": "2018-10-04T17:29:35.000Z"
       },
       {
-        "path": "/Users/katana/Sites/halsa-cli/template/pages/blog/index.md",
-        "route": "/blog/index.html",
-        "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/blog/",
-        "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/blog/index.html",
+        "file": {
+          "source": "/Users/katana/Sites/halsa-cli/template/pages/docs/getting-started.md",
+          "directory": "/Users/katana/Sites/halsa-cli/template/.halsa/docs/",
+          "target": "/Users/katana/Sites/halsa-cli/template/.halsa/docs/getting-started.html"
+        },
+        "route": "/docs/getting-started.html",
+        "content": {
+          "layout": "page",
+          "title": "Getting Started",
+          "description": "Learn how to use halsa on your project, with simple configuration and fast development workflow. Just write your content and then build to website with Halsa",
+          "category": "Blog",
+          "image": "/static/image.jpg"
+        },
         "category": "Pages",
-        "date": "2018-10-04T01:36:39.000Z",
-        "layout": "list",
-        "title": "Blog",
-        "description": "Blog list will be contains any pages except any index.md file",
-        "image": "/static/cooking.jpg"
+        "date": "2018-10-04T17:26:47.000Z"
       },
       {
-        "path": "/Users/katana/Sites/halsa-cli/template/pages/index.md",
+        "file": {
+          "source": "/Users/katana/Sites/halsa-cli/template/pages/index.md",
+          "directory": "/Users/katana/Sites/halsa-cli/template/.halsa/",
+          "target": "/Users/katana/Sites/halsa-cli/template/.halsa/index.html"
+        },
         "route": "/index.html",
-        "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/",
-        "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/index.html",
+        "content": {
+          "layout": "landing",
+          "title": "Home",
+          "description": "This is Home page"
+        },
         "category": "Pages",
-        "date": "2018-10-04T01:37:24.000Z",
-        "layout": "landing",
-        "title": "Home page",
-        "description": "This is Home page"
-      }
-    ]
-  },
-  "Blog": {
-    "name": "Blog",
-    "pages": [
-      {
-        "path": "/Users/katana/Sites/halsa-cli/template/pages/blog/getting-started.md",
-        "route": "/blog/getting-started.html",
-        "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/blog/",
-        "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/blog/getting-started.html",
-        "category": "Blog",
-        "date": "2018-10-04T01:37:00.000Z",
-        "layout": "page",
-        "title": "Getting Started",
-        "description": "This is Getting Started Page",
-        "image": "/static/cooking.jpg"
+        "date": "2018-10-05T02:36:06.000Z"
       }
     ]
   }

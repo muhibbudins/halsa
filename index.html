@@ -5,37 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home page</title> <!-- CSS Dependencies -->
+    <title>Home - Halsa Project</title> <!-- CSS Dependencies -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shards-ui@2.1.0/dist/css/shards.min.css">
-    <link rel="stylesheet" href="http://muhibbudins.github.io/halsa/themes/default.css">
+    <link rel="stylesheet" href="https://muhibbudins.github.io/halsa/themes/default.css">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4"> <a class="navbar-brand" href="#">Halsa</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-1" aria-controls="navbarNavDropdown-1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown-1">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"> <a class="nav-link" href="http://muhibbudins.github.io/halsa/">Home</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="http://muhibbudins.github.io/halsa/blog">Blog</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="http://muhibbudins.github.io/halsa/about.html">About</a> </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+      <div class="container"> <a class="navbar-brand" href="https://muhibbudins.github.io/halsa/">Halsa Project</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-1" aria-controls="navbarNavDropdown-1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown-1">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> <a class="nav-link" href="https://muhibbudins.github.io/halsa/">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="https://muhibbudins.github.io/halsa/docs/getting-started.html">Documentation</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="https://muhibbudins.github.io/halsa/about.html">About</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="https://github.com/muhibbudins/halsa-cli">Github</a> </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <div class="container">
-      <h1>This is a Home page</h1>
-      <p>You can write anything here, and from-mark will be convert it to paragraph</p>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="card"> <img class="card-img-top" src="http://muhibbudins.github.io/halsa/static/cooking.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Getting Started</h4>
-              <p class="card-text">This is Getting Started Page</p> <a href="http://muhibbudins.github.io/halsa/blog/getting-started.html" class="btn btn-primary">Read More</a>
+      <div class="py-3">
+        <p><img alt="Demo" src="https://muhibbudins.github.io/halsa/static/banner.jpg" /></p>
+        <h3>Welcome to Halsa! 🎊</h3>
+        <p>We simplify your workflow to built your website, just write your content and run <strong>halsa start</strong>.</p>
+        <p>&lt; another content here &gt;</p>
+      </div>
+      <div class="list-posts">
+        <h4 class="mb-4">From Blog</h4>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card"> <img class="card-img-top" src="https://muhibbudins.github.io/halsa/static/image.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Getting Started</h4>
+                <p class="card-text">Learn how to use halsa on your project, with simple configuration and fast development workflow. Just write your content...</p> <a href="https://muhibbudins.github.io/halsa/docs/getting-started.html" class="btn btn-primary">Read More</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="http://muhibbudins.github.io/halsa/reload/reload.js"></script>
+    <footer class="main-footer py-5">
+      <p class="text-muted text-center small p-0 mb-4">© Copyright 2018 — Halsa Project</p>
+    </footer>
+    <script src="https://muhibbudins.github.io/halsa/reload/reload.js"></script>
   </body>
 
 </html>

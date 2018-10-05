@@ -1,14 +1,19 @@
 [
   {
-    "path": "/Users/katana/Sites/halsa-cli/template/pages/blog/getting-started.md",
-    "route": "/blog/getting-started.html",
-    "targetPath": "/Users/katana/Sites/halsa-cli/template/.halsa/blog/",
-    "targetFile": "/Users/katana/Sites/halsa-cli/template/.halsa/blog/getting-started.html",
-    "category": "Blog",
-    "date": "2018-10-04T01:37:00.000Z",
-    "layout": "page",
-    "title": "Getting Started",
-    "description": "This is Getting Started Page",
-    "image": "/static/cooking.jpg"
+    "file": {
+      "source": "/Users/katana/Sites/halsa-cli/template/pages/docs/getting-started.md",
+      "directory": "/Users/katana/Sites/halsa-cli/template/.halsa/docs/",
+      "target": "/Users/katana/Sites/halsa-cli/template/.halsa/docs/getting-started.html"
+    },
+    "route": "/docs/getting-started.html",
+    "content": {
+      "layout": "page",
+      "title": "Getting Started",
+      "description": "Learn how to use halsa on your project, with simple configuration and fast development workflow. Just write your content and then build to website with Halsa",
+      "category": "Blog",
+      "image": "/static/image.jpg"
+    },
+    "category": "Pages",
+    "date": "2018-10-04T17:26:47.000Z"
   }
 ]
