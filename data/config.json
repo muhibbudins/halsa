@@ -26,6 +26,6 @@
   ],
   "domain": "https://muhibbudins.github.io/halsa",
   "port": 3001,
-  "branch": "master",
+  "branch": "gh-pages",
   "repository": "git@github.com:muhibbudins/halsa.git"
 }
